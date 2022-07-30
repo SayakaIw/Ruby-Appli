@@ -1,6 +1,13 @@
 def fizz_buzz(number)
-  input = "fizz={3 * n}"
-  input = "buzz={5 * n}"
+  if number %15 == 0
+    "Fizz_Buzz"
+  elsif number %3 == 0
+    "Fizz"
+  elsif number %5 == 0
+    "Buzz"
+  else
+    number.to_s
+  end
 end
 
 puts "数字を入力してください。"
