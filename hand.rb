@@ -1,12 +1,12 @@
-hand = "グー"
-if hand == "グー"
-  puts "出した手はグーです"
+hand="グー"
+if hand=="グー"
+  puts "グーです"
 end
 
-if hand != "チョキ"
-  puts "出した手はチョキではありません"
+if hand!="チョキ"
+  puts "グーではありません"
 end
 
-if (hand == "グー") || (hand == "パー")
-  puts "出した手はグーまたはパーです"
+if (hand=="グー")||(hand=="パー")
+  puts "グーまたはパー"
 end

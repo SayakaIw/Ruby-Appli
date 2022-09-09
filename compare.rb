@@ -1,8 +1,8 @@
-total = 100
-if total < 200
-  puts "合計は200未満です"
+total=100
+if total<200
+  puts "合計200点未満です"
 end
 
-if total >= 150
-  puts "合計は150以上です"
+if total>=150
+  puts "合計１５０以上です"
 end
