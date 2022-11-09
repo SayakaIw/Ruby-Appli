@@ -1,5 +1,5 @@
 (1..30).each do |i|
-  if i%15==0
+  if i % 15==0
     puts "FizzBuzz"
   elsif i%3==0
     puts "Fizz"
