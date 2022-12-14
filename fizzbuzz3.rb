@@ -1,6 +1,6 @@
 (1..30).each do |i|
   if i % 15 ==0
-    puts "FizzBuzz"
+    puts "Fizz_Buzz"
   elsif i % 3 ==0
     puts "Fizz"
   elsif i % 5 ==0
